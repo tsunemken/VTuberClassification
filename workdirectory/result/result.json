@@ -1,0 +1,142 @@
+{
+    "DenseNet121": {
+        "score": 0.8759124087591241,
+        "timestamp": "20221022_042400",
+        "classes_size": 23
+    },
+    "DenseNet169": {
+        "score": 0.9124087591240876,
+        "timestamp": "20221022_043024",
+        "classes_size": 23
+    },
+    "DenseNet201": {
+        "score": 0.9124087591240876,
+        "timestamp": "20221022_043857",
+        "classes_size": 23
+    },
+    "EfficientNetB0": {
+        "score": 0.0364963503649635,
+        "timestamp": "20221022_044248",
+        "classes_size": 23
+    },
+    "EfficientNetB1": {
+        "score": 0.0364963503649635,
+        "timestamp": "20221022_044541",
+        "classes_size": 23
+    },
+    "EfficientNetB2": {
+        "score": 0.058394160583941604,
+        "timestamp": "20221022_044952",
+        "classes_size": 23
+    },
+    "EfficientNetB3": {
+        "score": 0.043795620437956206,
+        "timestamp": "20221022_045551",
+        "classes_size": 23
+    },
+    "EfficientNetB4": {
+        "score": 0.051094890510948905,
+        "timestamp": "20221022_050016",
+        "classes_size": 23
+    },
+    "EfficientNetB5": {
+        "score": 0.06569343065693431,
+        "timestamp": "20221022_050703",
+        "classes_size": 23
+    },
+    "EfficientNetB6": {
+        "score": 0.029197080291970802,
+        "timestamp": "20221022_051414",
+        "classes_size": 23
+    },
+    "EfficientNetB7": {
+        "score": 0.072992700729927,
+        "timestamp": "20221022_052046",
+        "classes_size": 23
+    },
+    "InceptionResNetV2": {
+        "score": 0.7883211678832117,
+        "timestamp": "20221022_053018",
+        "classes_size": 23
+    },
+    "InceptionV3": {
+        "score": 0.927007299270073,
+        "timestamp": "20221022_054039",
+        "classes_size": 23
+    },
+    "MobileNet": {
+        "score": 0.9927007299270073,
+        "timestamp": "20221022_054855",
+        "classes_size": 23
+    },
+    "MobileNetV2": {
+        "score": 0.8759124087591241,
+        "timestamp": "20221022_055528",
+        "classes_size": 23
+    },
+    "MobileNetV3Large": {
+        "score": 0.043795620437956206,
+        "timestamp": "20221022_055956",
+        "classes_size": 23
+    },
+    "MobileNetV3Small": {
+        "score": 0.0364963503649635,
+        "timestamp": "20221022_060300",
+        "classes_size": 23
+    },
+    "NASNetLarge": {
+        "score": 0.7445255474452555,
+        "timestamp": "20221022_063645",
+        "classes_size": 23
+    },
+    "NASNetMobile": {
+        "score": 0.9051094890510949,
+        "timestamp": "20221022_064437",
+        "classes_size": 23
+    },
+    "ResNet101": {
+        "score": 0.043795620437956206,
+        "timestamp": "20221022_064656",
+        "classes_size": 23
+    },
+    "ResNet101V2": {
+        "score": 1.0,
+        "timestamp": "20221022_065538",
+        "classes_size": 23
+    },
+    "ResNet152": {
+        "score": 0.043795620437956206,
+        "timestamp": "20221022_070938",
+        "classes_size": 23
+    },
+    "ResNet152V2": {
+        "score": 0.9051094890510949,
+        "timestamp": "20221022_072108",
+        "classes_size": 23
+    },
+    "ResNet50": {
+        "score": 0.0364963503649635,
+        "timestamp": "20221022_072339",
+        "classes_size": 23
+    },
+    "ResNet50V2": {
+        "score": 0.9416058394160584,
+        "timestamp": "20221022_073342",
+        "classes_size": 23
+    },
+    "VGG16": {
+        "score": 0.29927007299270075,
+        "timestamp": "20221022_073952",
+        "classes_size": 23
+    },
+    "VGG19": {
+        "score": 0.24087591240875914,
+        "timestamp": "20221022_074904",
+        "classes_size": 23
+    },
+    "Xception": {
+        "score": 0.8905109489051095,
+        "timestamp": "20221022_075910",
+        "classes_size": 23
+    }
+}
