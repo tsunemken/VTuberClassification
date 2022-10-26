@@ -49,7 +49,7 @@ def gpu_setup():
 def model_setup(model_name):
     global g_model, g_classes
     g_model = tf.keras.models.load_model(os.path.join(utility.MODEL_PATH, model_name + '.h5'))
-    g_classes = np.loadtxt(utility.CLASSES_PATH, dtype=str)
+    g_classes = np.loadtxt(os.path.join(utility.MODEL_PATH, 'classes-' + model_name + '.txt'), dtype=str)
 
     return g_classes
 
@@ -541,7 +541,7 @@ def training(train_model, classes, img_size=224, epochs=20, batch_size=8, learni
     )
     
     model.save(os.path.join(utility.MODEL_PATH, train_model + '.h5'))
-    np.savetxt(utility.CLASSES_PATH,  classes, fmt='%s')
+    np.savetxt(os.path.join(utility.MODEL_PATH, 'classes-' + train_model + '.txt'),  classes, fmt='%s')
     
     acc = transfer_learning_history.history['accuracy']
     val_acc = transfer_learning_history.history['val_accuracy']

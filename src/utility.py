@@ -8,7 +8,6 @@ import datetime
 import csv
 from PIL import Image
 
-CLASSES_PATH = '/root/project/VTuberClassification/workdirectory/model/classes.txt'
 TEST_DATA_PATH = '/root/project/VTuberClassification/workdirectory/dataset/test'
 DATA_PATH = '/root/project/VTuberClassification/workdirectory/image'
 DATASET_PATH = '/root/project/VTuberClassification/workdirectory/dataset'
